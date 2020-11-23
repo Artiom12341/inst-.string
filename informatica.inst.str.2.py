@@ -1,0 +1,6 @@
+n=str(input("Dati cuv.-"))
+b=str(input("Dati cuv.-"))
+c=str(input("Dati cuv.-"))
+a=str(input("Dati cuv.-"))
+print(n,b,c,a)
+print(f'  {n.upper(0)} {b} {c}  {a} .')
