@@ -1,23 +1,20 @@
 s=str(input("dati sirul="))
-c='QWERTYUIOPĂÎÂASDFGHJKLȘȚZXCVBNM'
-d='0123456789'
-e='(){}[]+-*/='
-
+c="""QWERTYUIOPĂÎÂASDFGHJKLȘȚZXCVBNM"""
+d="""0123456789"""
+e="""(){}[]+-*/="""
+nr=0
 for i in s:
-    nr=0
-    if(i==c):
+    if i in c:
         nr=nr+1
 print("Majuscule in sir =",nr)
-
+b=0
 for a in s:
-    b=0
-    if(a==d):
+    if a in d:
         b=b+1
 print("cifre in sir =",b)
-
+g=0
 for f in s:
-    g=0
-    if (f==e):
+    if f in e:
         g=g+1
 print("Caractere speciale in sir =",g)
     
